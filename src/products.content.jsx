@@ -9,7 +9,7 @@ const products = [
       "Lightweight floral print dress with adjustable straps and a flowy silhouette — perfect for sunny days.",
     price: 69.99,
     category: "Dresses",
-    image: "/CaptinsFashion/dresses1.jpg",
+    image: "/src/assets/image/Dresses/Dresses1.jpg",
     rating: 4.9,
   },
   {
@@ -19,7 +19,7 @@ const products = [
       "A timeless black evening gown featuring a slim fit and subtle side slit for an elegant touch.",
     price: 119.99,
     category: "Dresses",
-    image: "/CaptinsFashion/Dresses2.jpg",
+    image: "/src/assets/image/Dresses/Dresses2.jpg",
     rating: 4.8,
   },
   {
@@ -29,7 +29,7 @@ const products = [
       "Comfortable cotton midi dress with pockets and a relaxed fit — ideal for everyday wear.",
     price: 59.99,
     category: "Dresses",
-    image: "/CaptinsFashion/Dresses3.jpg",
+    image: "/src/assets/image/Dresses/Dresses3.jpg",
     rating: 4.6,
   },
   {
@@ -39,7 +39,7 @@ const products = [
       "Stylish sleeveless red bodycon dress designed to flatter your curves for a bold look.",
     price: 79.99,
     category: "Dresses",
-    image: "/CaptinsFashion/Dresses4.jpg",
+    image: "/src/assets/image/Dresses/Dresses4.jpg",
     rating: 4.7,
   },
   {
@@ -49,7 +49,7 @@ const products = [
       "Step out in timeless elegance with the Mocha Elegance Pleated Set — featuring a cropped mocha blazer paired with a high-waisted pleated skirt.",
     price: 69.99,
     category: "Dresses",
-    image: "/CaptinsFashion/Dresses5.jpg",
+    image: "/src/assets/image/Dresses/Dresses5.jpg",
     rating: 4.9,
   },
   {
@@ -59,7 +59,7 @@ const products = [
       "Sleek black gown with modern slit detail and subtle shimmer — elegant for any event.",
     price: 119.99,
     category: "Dresses",
-    image: "/CaptinsFashion/Dresses6.jpg",
+    image: "/src/assets/image/Dresses/Dresses6.jpg",
     rating: 4.8,
   },
   {
@@ -69,7 +69,7 @@ const products = [
       "Relaxed cotton midi with a modern fit — great for casual or semi-formal outings.",
     price: 59.99,
     category: "Dresses",
-    image: "/CaptinsFashion/Dresses7.jpg",
+    image: "/src/assets/image/Dresses/Dresses7.jpg",
     rating: 4.6,
   },
   {
@@ -79,7 +79,7 @@ const products = [
       "A bold, sleeveless red bodycon dress with extra stretch for comfort.",
     price: 79.99,
     category: "Dresses",
-    image: "/CaptinsFashion/Dresses8.jpg",
+    image: "/src/assets/image/Dresses/Dresses8.jpg",
     rating: 4.7,
   },
 
@@ -91,7 +91,7 @@ const products = [
       "A soft, breathable cotton T-shirt that pairs perfectly with.",
     price: 19.99,
     category: "Tops",
-    image: "/CaptinsFashion/top1.jpg",
+    image: "/src/assets/image/Shirts/top1.jpg",
     rating: 4.5,
   },
   {
@@ -101,7 +101,7 @@ const products = [
       "Trendy striped crop top with a stretchy fit — ideal for casual summer looks.",
     price: 24.99,
     category: "Tops",
-    image: "/CaptinsFashion/top2.jpg",
+    image: "/src/assets/image/Shirts/top2.jpg",
     rating: 4.4,
   },
   {
@@ -111,7 +111,7 @@ const products = [
       "Elegant satin blouse with balloon sleeves and a flattering neckline, perfect for work or evening wear.",
     price: 49.99,
     category: "Tops",
-    image: "/CaptinsFashion/top3.jpg",
+    image: "/src/assets/image/Shirts/top3.jpg",
     rating: 4.8,
   },
   {
@@ -121,7 +121,7 @@ const products = [
       "Relaxed-fit cotton tee featuring a bold graphic print for a streetwear-inspired vibe.",
     price: 29.99,
     category: "Tops",
-    image: "/CaptinsFashion/top4.jpg",
+    image: "/src/assets/image/Shirts/top4.jpg",
     rating: 4.6,
   },
   {
@@ -131,7 +131,7 @@ const products = [
       "Another colorway of our classic tee — same soft cotton, same great fit.",
     price: 19.99,
     category: "Tops",
-    image: "/CaptinsFashion/top5.jpg",
+    image: "/src/assets/image/Shirts/top5.jpg",
     rating: 4.5,
   },
   {
@@ -141,7 +141,7 @@ const products = [
       "Fresh new stripe pattern with cropped fit — perfect for the season.",
     price: 24.99,
     category: "Tops",
-    image: "/CaptinsFashion/top6.jpg",
+    image: "/src/assets/image/Shirts/top6.jpg",
     rating: 4.4,
   },
   {
@@ -151,7 +151,7 @@ const products = [
       "Shimmering satin blouse with subtle pleats and button cuffs.",
     price: 49.99,
     category: "Tops",
-    image: "/CaptinsFashion/top7.jpg",
+    image: "/src/assets/image/Shirts/top7.jpg",
     rating: 4.8,
   },
   {
@@ -161,7 +161,7 @@ const products = [
       "Bold print tee with a loose fit and vintage wash finish.",
     price: 29.99,
     category: "Tops",
-    image: "/CaptinsFashion/top8.jpg",
+    image: "/src/assets/image/Shirts/top8.jpg",
     rating: 4.6,
   },
 
@@ -173,37 +173,37 @@ const products = [
       "Classic mid-rise skinny jeans with a stretch fit that flatters every shape.",
     price: 49.99,
     category: "Jeans",
-    image: "/CaptinsFashion/JEANS1.jpg",
+    image: "/src/assets/image/JEANS/JEANS1.jpg",
     rating: 4.7,
   },
   {
     id: 18,
     name: "Ripped Boyfriend Jeans",
     description:
-      "This is a Y2K-inspired casual outfit featuring a pink oversized jersey top with “07” printed on it, light-wash ripped wide-leg jeans, and accessories.",
+      "This is a Y2K-inspired casual outfit featuring a pink oversized jersey top with “07” printed on it, light-wash ripped wide-leg jeans, and accessories including a pink cap, black sunglasses, denim shoulder bag with ribbons, and white sneakers",
     price: 54.99,
     category: "Jeans",
-    image: "/CaptinsFashion/JEANS2.jpg",
+    image: "/src/assets/image/JEANS/JEANS2.jpg",
     rating: 4.5,
   },
   {
     id: 19,
     name: "High-Waisted Wide Leg Jeans",
     description:
-      "High-waisted cargo jeans in a vibrant blue wash with multiple pockets and edgy streetwear appeal.",
+      "These are high-waisted cargo jeans in a vibrant blue wash. They feature multiple utility pockets and side tie straps, giving them a trendy and edgy streetwear look. The jeans have a slightly loose, wide-leg cut, making them both comfortable and stylish for modern casual wear.",
     price: 59.99,
     category: "Jeans",
-    image: "/CaptinsFashion/JEANS3.jpg",
+    image: "/src/assets/image/JEANS/JEANS3.jpg",
     rating: 4.6,
   },
   {
     id: 20,
     name: "Black Slim Fit Jeans",
     description:
-      "Dark-wash wide-leg cargo jeans with flap pockets and a structured design.",
+      "These are dark-wash wide-leg cargo jeans with large flap pockets on both thighs and a high-rise waist. They have a clean, structured design without distressing, ideal for a chic utilitarian aesthetic. This piece pairs well with fitted tops or cropped tees for a flattering balance.",
     price: 52.99,
     category: "Jeans",
-    image: "/CaptinsFashion/JEANS4.jpg",
+    image: "/src/assets/image/JEANS/JEANS4.jpg",
     rating: 4.7,
   },
   {
@@ -213,7 +213,7 @@ const products = [
       "Stretch-fit mid-rise skinny jeans — perfect for everyday comfort.",
     price: 49.99,
     category: "Jeans",
-    image: "/CaptinsFashion/JEANS5.jpg",
+    image: "/src/assets/image/JEANS/JEANS5.jpg",
     rating: 4.7,
   },
   {
@@ -223,7 +223,7 @@ const products = [
       "Relaxed-fit jeans with heavier distress for a bolder look.",
     price: 54.99,
     category: "Jeans",
-    image: "/CaptinsFashion/JEANS6.jpg",
+    image: "/src/assets/image/JEANS/JEANS6.jpg",
     rating: 4.5,
   },
   {
@@ -233,7 +233,7 @@ const products = [
       "Soft denim wide-leg jeans with a flattering silhouette.",
     price: 59.99,
     category: "Jeans",
-    image: "/CaptinsFashion/JEANS7.jpg",
+    image: "/src/assets/image/JEANS/JEANS7.jpg",
     rating: 4.6,
   },
   {
@@ -243,7 +243,7 @@ const products = [
       "Black denim jeans with a sleek fit and minimal stretch for structure.",
     price: 52.99,
     category: "Jeans",
-    image: "/CaptinsFashion/JEANS8.jpg",
+    image: "/src/assets/image/JEANS/JEANS8.jpg",
     rating: 4.7,
   },
 
@@ -255,17 +255,17 @@ const products = [
       "Lightweight sneakers made for all-day comfort with cushioned soles and breathable mesh.",
     price: 79.99,
     category: "Shoes",
-    image: "/CaptinsFashion/Sneaker1.jpg",
+    image: "/src/assets/image/Sneakers/Sneaker1.jpg",
     rating: 4.8,
   },
   {
     id: 26,
     name: "Classic White Sneakers",
     description:
-      "Minimalist leather sneakers that pair perfectly with everything.",
+      "Minimalist leather sneakers that pair perfectly with ,.",
     price: 89.99,
     category: "Shoes",
-    image: "/CaptinsFashion/Sneaker2.jpg",
+    image: "/src/assets/image/Sneakers/Sneaker2.jpg",
     rating: 4.7,
   },
   {
@@ -275,7 +275,7 @@ const products = [
       "Durable mid-calf leather boots with a block heel — stylish and practical for colder days.",
     price: 129.99,
     category: "Shoes",
-    image: "/CaptinsFashion/Sneaker9.jpg",
+    image: "/src/assets/image/Sneakers/Sneaker9.jpg",
     rating: 4.7,
   },
   {
@@ -285,7 +285,7 @@ const products = [
       "Strappy heeled sandals that add sophistication to any evening outfit.",
     price: 69.99,
     category: "Shoes",
-    image: "/CaptinsFashion/Sneaker4.jpg",
+    image: "/src/assets/image/Sneakers/Sneaker4.jpg",
     rating: 4.6,
   },
   {
@@ -295,7 +295,7 @@ const products = [
       "Updated mesh sneakers with extra arch support and soft padding.",
     price: 79.99,
     category: "Shoes",
-    image: "/CaptinsFashion/Sneaker5.jpg",
+    image: "/src/assets/image/Sneakers/Sneaker5.jpg",
     rating: 4.8,
   },
   {
@@ -305,7 +305,7 @@ const products = [
       "Sleek white sneakers with a modern sole design and premium finish.",
     price: 89.99,
     category: "Shoes",
-    image: "/CaptinsFashion/Sneaker6.jpg",
+    image: "/src/assets/image/Sneakers/Sneaker6.jpg",
     rating: 4.7,
   },
   {
@@ -315,7 +315,7 @@ const products = [
       "Matte black ankle boots with durable stitching and padded lining.",
     price: 129.99,
     category: "Shoes",
-    image: "/CaptinsFashion/Sneaker7.jpg",
+    image: "/src/assets/image/Sneakers/Sneaker7.jpg",
     rating: 4.7,
   },
   {
@@ -325,7 +325,7 @@ const products = [
       "Gold-tone heeled sandals — perfect for formal events.",
     price: 69.99,
     category: "Shoes",
-    image: "/CaptinsFashion/Sneaker8.jpg",
+    image: "/src/assets/image/Sneakers/Sneaker8.jpg",
     rating: 4.6,
   },
 
@@ -337,7 +337,7 @@ const products = [
       "A timeless blue denim jacket with a slim fit — perfect for layering over any outfit.",
     price: 59.99,
     category: "Jackets",
-    image: "/CaptinsFashion/jacket1.jpg",
+    image: "/src/assets/image/jacket/jacket1.jpg",
     rating: 4.7,
   },
   {
@@ -347,7 +347,7 @@ const products = [
       "Edgy black leather jacket with silver hardware — a must-have wardrobe staple.",
     price: 149.99,
     category: "Jackets",
-    image: "/CaptinsFashion/jacket2.jpg",
+    image: "/src/assets/image/jacket/jacket2.jpg",
     rating: 4.9,
   },
   {
@@ -357,7 +357,7 @@ const products = [
       "Chic beige trench coat with a belt and lightweight material — perfect for spring and fall.",
     price: 119.99,
     category: "Jackets",
-    image: "/CaptinsFashion/jacket3.jpg",
+    image: "/src/assets/image/jacket/jacket3.jpg",
     rating: 4.8,
   },
   {
@@ -367,7 +367,7 @@ const products = [
       "Warm and lightweight gray puffer jacket with a water-resistant finish.",
     price: 99.99,
     category: "Jackets",
-    image: "/CaptinsFashion/jacket9.jpg",
+    image: "/src/assets/image/jacket/jacket9.jpg",
     rating: 4.7,
   },
   {
@@ -377,7 +377,7 @@ const products = [
       "Classic blue puffer jacket designed for warmth and comfort.",
     price: 99.99,
     category: "Jackets",
-    image: "/CaptinsFashion/jacket5.jpg",
+    image: "/src/assets/image/jacket/jacket5.jpg",
     rating: 4.7,
   },
   {
@@ -387,7 +387,7 @@ const products = [
       "Sleek black puffer jacket with minimal stitching and soft padding.",
     price: 99.99,
     category: "Jackets",
-    image: "/CaptinsFashion/jacket6.jpg",
+    image: "/src/assets/image/jacket/jacket6.jpg",
     rating: 4.7,
   },
   {
@@ -397,7 +397,7 @@ const products = [
       "Military green puffer jacket with water-resistant exterior and zip pockets.",
     price: 99.99,
     category: "Jackets",
-    image: "/CaptinsFashion/jacket7.jpg",
+    image: "/src/assets/image/jacket/jacket7.jpg",
     rating: 4.7,
   },
   {
@@ -407,7 +407,7 @@ const products = [
       "Soft cream puffer jacket — stylish and cozy for cold weather.",
     price: 99.99,
     category: "Jackets",
-    image: "/CaptinsFashion/jacket8.jpg",
+    image: "/src/assets/image/jacket/jacket8.jpg",
     rating: 4.7,
   },
 
@@ -419,7 +419,7 @@ const products = [
       "Elegant crossbody bag crafted from premium leather, ideal for carrying daily essentials.",
     price: 129.99,
     category: "Accessories",
-    image: "/CaptinsFashion/ACCESSORIES1.jpg",
+    image: "/src/assets/image/ACCESSORIES/ACCESSORIES1.jpg",
     rating: 4.5,
   },
   {
@@ -429,7 +429,7 @@ const products = [
       "Timeless aviator shades with UV400 protection and sleek gold-tone frames.",
     price: 49.99,
     category: "Accessories",
-    image: "/CaptinsFashion/ACCESSORIES2.jpg",
+    image: "/src/assets/image/ACCESSORIES/ACCESSORIES2.jpg",
     rating: 4.6,
   },
   {
@@ -439,7 +439,7 @@ const products = [
       "Statement gold-plated chain necklace to elevate any outfit.",
     price: 39.99,
     category: "Accessories",
-    image: "/CaptinsFashion/ACCESSORIES3.jpg",
+    image: "/src/assets/image/ACCESSORIES/ACCESSORIES3.jpg",
     rating: 4.8,
   },
   {
@@ -449,7 +449,7 @@ const products = [
       "Soft, cozy gray wool scarf — ideal for layering during cold weather.",
     price: 34.99,
     category: "Accessories",
-    image: "/CaptinsFashion/ACCESSORIES4.jpg",
+    image: "/src/assets/image/ACCESSORIES/ACCESSORIES4.jpg",
     rating: 4.7,
   },
   {
@@ -459,7 +459,7 @@ const products = [
       "Warm brown wool scarf with classic fringe details.",
     price: 34.99,
     category: "Accessories",
-    image: "/CaptinsFashion/ACCESSORIES5.jpg",
+    image: "/src/assets/image/ACCESSORIES/ACCESSORIES5.jpg",
     rating: 4.7,
   },
   {
@@ -469,7 +469,7 @@ const products = [
       "Light cream wool scarf — soft, cozy, and stylish.",
     price: 34.99,
     category: "Accessories",
-    image: "/CaptinsFashion/ACCESSORIES6.jpg",
+    image: "/src/assets/image/ACCESSORIES/ACCESSORIES6.jpg",
     rating: 4.7,
   },
   {
@@ -479,7 +479,7 @@ const products = [
       "Elegant beige wool scarf with minimal pattern — timeless and soft.",
     price: 34.99,
     category: "Accessories",
-    image: "/CaptinsFashion/ACCESSORIES7.jpg",
+    image: "/src/assets/image/ACCESSORIES/ACCESSORIES7.jpg",
     rating: 4.7,
   },
   {
@@ -489,7 +489,7 @@ const products = [
       "Cool blue wool scarf with soft knit texture — cozy and vibrant.",
     price: 34.99,
     category: "Accessories",
-    image: "/CaptinsFashion/ACCESSORIES8.jpg",
+    image: "/src/assets/image/ACCESSORIES/ACCESSORIES8.jpg",
     rating: 4.7,
   },
 ];
