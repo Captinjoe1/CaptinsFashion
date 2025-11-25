@@ -1,5 +1,4 @@
 // src/content/products.content.js
-import jacket1 from "../assets/image/jacket/jacket1.jpg";
 
 const products = [
   // 👗 DRESSES
